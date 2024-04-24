@@ -18,7 +18,7 @@ module "vpc" {
 }
 
 
-#SG
+#SGModule
 
 module "sg" {
   source = "terraform-aws-modules/security-group/aws"

@@ -18,7 +18,7 @@ module "vpc" {
 }
 
 
-#SGModule
+#SGModule_updated
 
 module "sg" {
   source = "terraform-aws-modules/security-group/aws"
